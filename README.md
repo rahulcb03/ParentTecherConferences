@@ -1,6 +1,7 @@
 # ParentTecherConferences
 
 The Conferences file contains the backend, Using Java Spring Boot, it connects to a MongoDB database that stores the student, teacher, and timing info
+   
     Current Completion:
         - created REST API endpoints
         - retrieve students by the given Name
@@ -8,6 +9,7 @@ The Conferences file contains the backend, Using Java Spring Boot, it connects t
         - Delete an appointment from the database 
         
 The ConfrenceClient contains the front end, mainly using react.js, 
+   
     Current Completion:
         - Home page prompts the user to enter the student name and calls REST API to get the info 
         - navigates to the scheduling page if the student is found, the user is presented with timing and availability for conferences
